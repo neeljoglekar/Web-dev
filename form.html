@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title> Registration form</title>
+    </head>
+    <body bgcolor="cyan">
+        <marquee><h1> STUDENT REGISTRATION !!!</h1></marquee>
+
+        <form action="C:\Users\neelj\Documents\VIT\SEM 2\Web dev\reg.html" method="post">
+            <label> Enter your name: </label>
+            <input type="text" name="flname"> <br> <br>
+
+            <label> Enter your college: </label>
+            <input type="text" name="clg"> <br> <br>
+
+            <label> Enter your address: </label>
+            <textarea cols="30" rows="3"></textarea> <br><br>
+
+            <label> Gender: </label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female <br><br>
+
+            <label> Branch: </label>
+            <select name="branch">
+                <option value="CS"> CS</option>
+                <option value="CS(AI)"> CS(AI)</option>
+                <option value="CS(AIML)"> CS(AIML)</option>
+                <option value="AIDS"> AIDS</option>
+                <option value="IT"> IT</option>
+            </select> <br> <br>
+
+            <label> Year: </label>
+            <input type="radio" name="year" value="FY"> FY 
+            <input type="radio" name="year" value="SY" > SY 
+            <input type="radio" name="year" value="TY"> TY 
+            <input type="radio" name="year" value="BTech"> BTech <br><br>
+
+            <label> Clubs: </label>
+            <input type="checkbox" name="c1" value="Student Council"> Student Council
+            <input type="checkbox" name="c2" value="Vishwa Conclave"> Vishwa Conclave
+            <input type="checkbox" name="c3" value="VEDC"> VEDC
+            <input type="checkbox" name="c4" value="GDG"> GDG
+            <input type="checkbox" name="c5" value="IEEE"> IEEE <br><br>
+
+            <label> Upload your image: </label>
+            <input type="file" name="image" accept="image/*"> <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+
+        </form>
+    </body>
+</html>
